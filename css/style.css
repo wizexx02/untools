@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(30, 37, 43, 1);
+}
+.container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.hero{
+    padding-top: 104px;
+}
+.popular{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.brand{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.newcomer{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.testimonial{
+        padding-bottom: 250px;
+}
+.join{
+    padding-bottom: 240px;
+}
+.footer{
+    padding-top: 70px;
+    padding-bottom: 98px;
+}
+.header__wrappper{
+    display: flex;
+}
+.header__logo-text{
+
+}
