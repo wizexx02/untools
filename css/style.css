@@ -214,7 +214,6 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    max-width: 427px;
 }
 .newcomer__button{
     background-color: rgba(255, 110, 48, 1);
@@ -264,7 +263,6 @@ body{
 }
 .newcomer__visit{
     width: 106px;
-    height: 42px;
     border: 0 solid black;
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.55);
@@ -287,6 +285,7 @@ body{
     column-gap: 24px;
     row-gap: 50px;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .newcomer__container{
     display: flex;
@@ -295,4 +294,73 @@ body{
 .newcomer__list-item{
     max-width: 288px;
     padding: 28px 22px;
+}
+.brand{
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    max-width: 1224px;
+    height: 253px;
+    background-position: center;
+}
+.brand__title{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 55px;
+}
+.brand__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.join__title{
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+}
+.join__text{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.join__wrapper{
+    text-align: center;
+}
+.join__input{
+    border: none;
+    background-color: transparent;
+    width: 228px;
+}
+.join__form{
+    border: 1.5px solid rgba(40, 48, 54, 1);
+    border-radius: 15px;
+    background-color: rgba(40, 48, 54, 1);
+    width: 549px;
+    display: flex;
+    color: rgba(131, 122, 147, 1);
+    align-items: center;
+    padding: 8px 11px 8px 18px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.join__button{
+    padding: 12px 36px;
+    background-color: rgba(255, 110, 48, 1);
+    color: white;
+    border-radius: 8px;
+    margin-left: auto;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+}
+.header__link:nth-child(2)::after{
+    content:"";
+    background-image: url(../img/chevron-down.png);
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-left: 5px;
 }
